@@ -4182,7 +4182,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-contact-us{
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .page-header-contact{
@@ -4271,8 +4271,13 @@ header.main-header .header-sticky.active{
 
 .google-map-iframe,
 .google-map-iframe iframe{
-    height: 650px;
-    width: 100%;
+    height: 600px;
+    width: 900px;
+	display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengahkan secara horizontal */
+    align-items: center; /* Menengahkan secara vertikal jika diperlukan */
+    margin: 0 auto; /* Alternatif tambahan */
+	padding-bottom: 20px;
 }
 
 .google-map-iframe iframe{
