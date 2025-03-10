@@ -2689,8 +2689,9 @@ header.main-header .header-sticky.active{
 }
 
 .project-item img {
-    width: 100%;
-    height: auto;
+	width: 350px; /* Sesuaikan ukuran sesuai keinginan */
+    height: 250px; /* Pastikan semua gambar memiliki tinggi yang sama */
+    object-fit:cover; /* Memastikan gambar tetap proporsional tanpa merusak aspek */
     border-radius: 10px;
 }
 
