@@ -469,7 +469,6 @@ body{
 	font-weight: 800;
 	line-height: 1.3em;
 	letter-spacing: -0.03em;
-	text-transform: uppercase;
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -1026,7 +1025,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-clients {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .our-client .container{
@@ -1690,12 +1689,12 @@ header.main-header .header-sticky.active{
 	filter: brightness(0) invert(1);
 }
 
-.project-item{
+.project-item-index{
 	position: relative;
 	overflow: hidden;
 }
 
-.project-item-project img {
+.project-item-index img {
     width: 350px; /* Sesuaikan ukuran sesuai keinginan */
     height: 290px; /* Pastikan semua gambar memiliki tinggi yang sama */
     object-fit: cover; /* Memastikan gambar tetap proporsional tanpa merusak aspek */
@@ -1703,7 +1702,7 @@ header.main-header .header-sticky.active{
     margin: 0 auto;
 }
 
-.project-item-project p {
+.project-item-index p {
 	margin-left: 23px;
 	margin-top: 10px;
 }
@@ -1730,12 +1729,13 @@ header.main-header .header-sticky.active{
 
 .project-image img{
 	width: 100%;
+	height: 400px;
 	aspect-ratio: 1 / 0.67;
 	object-fit: cover;
 	transition: all 0.4s ease-in-out;
 }
 
-.project-item:hover .project-image img{
+.project-item-index:hover .project-image img{
 	transform: scale(1.1);
 }
 
@@ -1750,7 +1750,7 @@ header.main-header .header-sticky.active{
 }
 
 .project-content h3{
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 600;
 	text-transform: capitalize;
 	color: var(--white-color);
@@ -2666,8 +2666,12 @@ header.main-header .header-sticky.active{
 /***      17. Service Page css	  ***/
 /************************************/
 
-.page-service {
-    padding: 60px 0;
+.page-service{
+	padding: 60px 0;
+}
+
+.page-service-about {
+    padding-bottom: 60px;
 }
 
 .side-left {
@@ -2680,7 +2684,17 @@ header.main-header .header-sticky.active{
 }
 
 .content-item {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.content-item p{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.content-item img{
+	height: 500px;
+	background-size: cover;
 }
 
 .project-item {
@@ -3299,6 +3313,21 @@ header.main-header .header-sticky.active{
 
 .page-project .project-image img{
     aspect-ratio: 1 / 0.96;
+}
+
+.project-item-project img{
+	border-radius: 10px;
+	width: 100%;
+	height: 300px;
+}
+
+.project-item-project p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	color: #707070;
+	margin-bottom: 20px
 }
 
 /************************************/
