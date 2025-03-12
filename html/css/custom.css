@@ -380,6 +380,12 @@ body{
 	padding-bottom: 20px;
 }
 
+.section-row-history{
+	position: relative;
+	margin-bottom: 5px;
+	padding-top: 15px;
+}
+
 .section-row::before{
 	content: '';
 	display: block;
@@ -1025,7 +1031,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-clients {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .our-client .container{
@@ -1077,7 +1083,7 @@ header.main-header .header-sticky.active{
 
 .about-us{
 	background-image: linear-gradient(180deg, var(--secondary-color) 70%, var(--white-color) 30%);
-	padding: 100px 0 50px;
+	padding: 60px 0 50px;
 }
 
 .about-content{
@@ -1089,8 +1095,7 @@ header.main-header .header-sticky.active{
 .about-full-text {
     width: 100%;
     max-width: 1200px; /* Sesuai ukuran container */
-    margin: 20px auto; /* Memberikan ruang atas & bawah */
-    padding: 10px 15px; /* Padding agar tidak terlalu dekat tepi */
+    margin-top: 20px; /* Memberikan ruang atas & bawah */
     text-align: justify; /* Justifikasi teks agar rapi */
 }
 
@@ -1154,7 +1159,7 @@ header.main-header .header-sticky.active{
     overflow: hidden;
 	z-index: 1;
 	cursor: none;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .about-video-image .video-image img{
@@ -1340,7 +1345,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-services{
-	padding: 50px 0 70px;
+	padding: 10px 0 40px;
 }
 
 .page-header-service{
@@ -1665,7 +1670,7 @@ header.main-header .header-sticky.active{
 
 .our-project{
 	background: linear-gradient(180deg, var(--accent-color) 70%, var(--white-color) 30%);
-	padding: 100px 0 50px;
+	padding: 50px 0 50px;
 }
 
 .page-header-project{
@@ -2479,7 +2484,8 @@ header.main-header .header-sticky.active{
 }
 
 .industry-archivement.about-industry-archivement{
-	padding: 50px 0 50px;
+	padding-top: 0px;
+	padding-bottom: 15px;
 }
 
 .our-team {
@@ -4305,7 +4311,7 @@ header.main-header .header-sticky.active{
 }
 
 .page-header-contact{
-	background: linear-gradient(270.02deg, rgba(12, 55, 90, 0) 0.02%, rgba(12, 55, 90, 0.5) 84.99%), url('../images/background2.jpeg');
+	background: linear-gradient(270.02deg, rgba(12, 55, 90, 0) 0.02%, rgba(12, 55, 90, 0.5) 84.99%), url('../images/silkar6.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
