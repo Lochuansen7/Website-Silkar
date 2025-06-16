@@ -266,7 +266,7 @@
 
 		$.ajax({
 			type: "POST",
-			url: "form-process.php",
+			url: "form-process.html",
 			data: "fname=" + fname + "&lname=" + lname + "&email=" + email + "&phone=" + phone + "&message=" + message,
 			success : function(text){
 				if (text == "success"){
